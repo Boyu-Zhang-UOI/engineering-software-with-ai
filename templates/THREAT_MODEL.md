@@ -1,6 +1,6 @@
 # THREAT_MODEL — [Team or setup name]
 
-> A threat model of **your own agent setup**: the agents, tools, tokens and data your team actually uses. Written in week 4, revised at M2 and before the final defense. 🟡 **AI limited:** an AI may help you brainstorm attacks (log it); the analysis and the decisions are yours.
+> A threat model of **your own agent setup**: the agents, tools, tokens and data your team actually uses. Written in week 4, revised at M2 and before the final presentation. 🟡 **AI limited:** an AI may help you brainstorm attacks (log it); the analysis and the decisions are yours.
 > Tag every claim about your setup **observed** (you checked it: a config file, a token's permissions page, a test) or **inferred**.
 > Replace every [square-bracket placeholder].
 

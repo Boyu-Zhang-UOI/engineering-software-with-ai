@@ -7,7 +7,7 @@
 
 ## 1. Goals
 
-- What we want to have contributed by the final defense: [one or two sentences]
+- What we want to have contributed by the final presentation: [one or two sentences]
 - What each of us wants to learn: [one line each]
 
 ## 2. Roles

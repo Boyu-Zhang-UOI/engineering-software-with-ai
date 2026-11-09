@@ -41,17 +41,12 @@
 <tr>
 <td>Labs and assignments (weeks 1–13)</td>
 <td>35%</td>
-<td>30%</td>
-</tr>
-<tr>
-<td>Due-date quizzes (7 min, weeks 2–14)</td>
-<td>10%</td>
-<td>5%</td>
-</tr>
-<tr>
-<td>Team project (M0, M1, M2, final)</td>
-<td>30%</td>
 <td>25%</td>
+</tr>
+<tr>
+<td>Quizzes, reading responses and participation</td>
+<td>15%</td>
+<td>10%</td>
 </tr>
 <tr>
 <td>Oral exams (weeks 8 and 14)</td>
@@ -59,9 +54,9 @@
 <td>15%</td>
 </tr>
 <tr>
-<td>Reading responses and participation</td>
-<td>10%</td>
-<td>5%</td>
+<td>Final project: the team project (M0, M1, M2, final)</td>
+<td>35%</td>
+<td>30%</td>
 </tr>
 <tr>
 <td>Graduate work</td>
@@ -263,10 +258,10 @@ AI policy: three labels, always in words: AI on, AI limited, AI off. The complet
 $0: the scarce resource is model capacity, not tools. We spread the work across several free allowances. UT Austin's CS 378 says it bluntly: a note that you ran out of credit doesn't excuse a missing homework. Switching to a fallback is part of the course.
 Two-layer rule: free tiers change monthly, so the lessons never name a model or a price. TOOLS.md does, and it's re-checked every term.</p></div><div class="bespoke-marp-note" data-index="2" tabindex="0"><p>Speaker notes (3 minutes). Walk the table. Points to stress:
 - Due-date quizzes start next week: 7 minutes, AI off, at the start of the Seminar on the day an assignment is due, about that assignment. If you did the work and read what your agent did, they're easy. Lowest two dropped.
-- Oral exams in weeks 8 and 14 and the final defense are required for a C or higher.
+- There is no final examination: the course ends with team presentations in the final exam period.
 - Two grace tokens, 48 hours each; not for quizzes, oral exams or the PR round.
 - Evidence over output: commit history, AI_LOG.md, tests, honest limitations. Read the quote aloud; it's from UT Austin's CS 378 and it's this course's rule too.
-Source: assessment/README.md and the syllabus's Evaluation Procedures.</p></div><div class="bespoke-marp-note" data-index="3" tabindex="0"><p>Speaker notes (2 minutes). Vibe coding in Karpathy's original sense: you don't read the code. It's real and sometimes fine, for a prototype you'll throw away.
+Source: assessment/README.md and the syllabus's Grading section.</p></div><div class="bespoke-marp-note" data-index="3" tabindex="0"><p>Speaker notes (2 minutes). Vibe coding in Karpathy's original sense: you don't read the code. It's real and sometimes fine, for a prototype you'll throw away.
 This course is about software someone relies on: a codebase with maintainers, tests, users. Same agents; different responsibilities. Ask: who here has used an agent this year? Who read every line it wrote?</p></div><div class="bespoke-marp-note" data-index="4" tabindex="0"><p>Speaker notes (3 minutes). The course's core triad. UT Austin treats agent use as &quot;a form of technical writing&quot;: what you specify, what you delegate, what you verify.
 What not to delegate: the specification itself, the tests that define correct, security decisions, anything you couldn't explain afterwards. Michigan's EECS 498: &quot;a one-shot prompt gives you the model's design, not yours.&quot;
 Example: this week's Lab task. Specify: slugify, with the empty string as an edge case. Delegate: to mini-agent, inside a workspace, every change approved. Verify: you run node --test yourself; you don't take the summary's word.
